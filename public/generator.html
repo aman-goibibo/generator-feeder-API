@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js"
+        integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+
+</head>
+
+<body>
+    <h1>GENERATOR API PAGE</h1>
+
+    <input type="text" placeholder="Enter tag to be searched" id="tag1">
+
+    <button id="addbtn">Take Images from API</button>
+    <br><br>
+
+
+
+    <!-- <button id = "uploadbtn">Upload Images as a User</button> -->
+
+
+    <div style="padding-top:10px;">
+        <form action="/views/index.ejs">
+            <input type="text" placeholder="Enter tag of the image" id="tag2">
+
+            <input type="submit" value="Add Image as a USER">
+
+        </form>
+    </div>
+
+    <br>
+    <div>
+        <ul id="ul-list">
+        </ul>
+    </div>
+
+</body>
+<script src="take_images.js"></script>
+
+</html>

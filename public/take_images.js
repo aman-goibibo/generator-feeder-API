@@ -20,7 +20,7 @@ function getLinks(tag, done) {
 function createList(data){
     console.log(data.link)
     return $(`
-    <li class="list">${data.link}</li>
+   <img src = ${data.link} />
     `)
 }
 
@@ -43,10 +43,5 @@ $(function () {
 
     })
 
-    // let tag2 = $('#tag2')
-
-    // $('#uploadbtn').click(function () {
-
-    // })
 
 })
